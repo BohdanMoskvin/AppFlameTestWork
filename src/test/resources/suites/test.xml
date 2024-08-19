@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression suite">
+
+    <listeners>
+        <listener class-name="listener.AllureListener"></listener>
+    </listeners>
+
+    <test name="Regression test">
+        <classes>
+            <class name="tests.CustomTest"/>
+            <class name="tests.PreferenceFromCodeTest"/>
+            <class name="tests.LaunchingPreferencesTest"/>
+            <class name="tests.WiFiTest"/>
+            <class name="tests.SeekingTest"/>
+        </classes>
+    </test>
+
+</suite>
